@@ -1,0 +1,8 @@
+print("welcome to this program")
+number=float(input("please enter days number you stay"))
+hotelprice =float(input("please enter hotelprice"))
+flightprice =float(input("please enter flightprice"))
+rentalcarprice  =float(input("please enter rentalcarprice"))
+expense  =float(input("please enter expense"))
+cost=round(float(number)*(float(hotelprice)  +float(rentalcarprice) )+ float(flightprice)+ float(expense),2)
+print(f"the money you have to pay{cost}")
